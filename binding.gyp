@@ -18,8 +18,7 @@
       ["OS == 'linux'", {
         "cflags": [
           "-std=c++11",
-          "-Wall",
-          "-Werror"
+          "-Wall"
         ],
         "cflags_cc": [
           "-Wno-attributes"
@@ -39,8 +38,7 @@
           "OTHER_CFLAGS": [
             "-std=c++17",
             "-stdlib=libc++",
-            "-Wall",
-            "-Werror"
+            "-Wall"
           ]
         },
       }],
